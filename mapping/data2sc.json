@@ -1,0 +1,20 @@
+{
+  "layout" : "",
+  "fields" : {
+    "id": {
+      "xpath": "/DATA2SC/@ID",
+      "datatype": "int",
+      "field": null
+    },
+    "pin": {
+      "xpath": "/DATA2SC/@PIN",
+      "datatype": "int",
+      "field": null
+    },
+    "workorder": {
+      "xpath":"/DATA2SC/CALL",
+      "datatype": "workorder",
+      "field":null
+    }
+  }
+}

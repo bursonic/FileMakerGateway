@@ -1,0 +1,45 @@
+{
+  "layout" : "check_inout_records",
+  "fields" : {
+    "pin" : {
+      "xpath"    : "./@PIN",
+      "datatype" : "int",
+      "field"    : "PIN"
+    },
+    "id" : {
+      "xpath"    : "./@ID",
+      "datatype" : "text",
+      "field"    : "ID"
+    },
+    "datetime" : {
+      "xpath"    : "./@DATETIME",
+      "datatype" : "datetime",
+      "field"    : "DATETIME"
+    },
+    "callerId" : {
+      "xpath"    : "./@CALLERID",
+      "datatype" : "text",
+      "field"    : "CALLERID"
+    },
+    "status" : {
+      "xpath"    : "./@STATUS",
+      "datatype" : "text",
+      "field"    : "STATUS"
+    },
+    "schedDatetime" : {
+      "xpath"    : "./@SCHED_DATETIME",
+      "datatype" : "datetime",
+      "field"    : "SCHED_DATETIME"
+    },
+    "type" : {
+      "xpath"    : "./@TYPE",
+      "datatype" : "eventType",
+      "field"    : "TYPE"
+    },
+    "workorder" : {
+      "xpath"    : "./../@TR_NUM",
+      "datatype" : "int",
+      "field"    : ""
+    }
+  }
+}

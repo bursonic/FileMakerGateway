@@ -1,0 +1,120 @@
+{
+  "layout" : "SC",
+  "fields" : {
+    "problem": {
+      "xpath"   : "./PROBLEM",
+      "datatype": "text",
+      "field"   : "PROBLEM"
+    },
+    "resol": {
+      "xpath"   : "./RESOL",
+      "datatype": "text",
+      "field"   : "RESOL"
+    },
+    "type": {
+      "xpath"   : "./@TYPE",
+      "datatype": "event_type",
+      "field"   : ""
+    },
+    "datetime": {
+      "xpath"   : "./@DATETIME",
+      "datatype": "datetime",
+      "field"   : "DATETIME"
+    },
+    "operator": {
+      "xpath"   : "./@OPERATOR",
+      "datatype": "text",
+      "field"   : "OPERATOR"
+    },
+    "caller": {
+      "xpath"   : "./@CALLER",
+      "datatype": "text",
+      "field"   : "CALLER"
+    },
+    "category": {
+      "xpath"   : "./@CATEGORY",
+      "datatype": "text",
+      "field"   : "CATEGORY"
+    },
+    "sub": {
+      "xpath"   : "./@SUB",
+      "datatype": "int",
+      "field"   : "SUB"
+    },
+    "loc": {
+      "xpath"   : "./@LOC",
+      "datatype": "text",
+      "field"   : "LOC"
+    },
+    "trade": {
+      "xpath"   : "./@TRADE",
+      "datatype": "text",
+      "field"   : "TRADE"
+    },
+    "pro": {
+      "xpath"   : "./@PRO",
+      "datatype": "int",
+      "field"   : "PRO"
+    },
+    "proName": {
+      "xpath"   : "./@PRO_NAME",
+      "datatype": "text",
+      "field"   : ""
+    },
+    "trNum": {
+      "xpath"   : "./@TR_NUM",
+      "datatype": "int",
+      "field"   : "TR_NUM"
+    },
+    "woNum": {
+      "xpath"   : "./@WO_NUM",
+      "datatype": "text",
+      "field"   : "WO_NUM"
+    },
+    "poNum": {
+      "xpath"   : "./@PO_NUM",
+      "datatype": "text",
+      "field"   : "PO_NUM"
+    },
+    "status": {
+      "xpath"   : "./@STATUS",
+      "datatype": "text",
+      "field"   : "STATUS"
+    },
+    "priority": {
+      "xpath"   : "./@PRIORITY",
+      "datatype": "text",
+      "field"   : "PRIORITY"
+    },
+    "equipmentId": {
+      "xpath"   : "./@EQP_ID",
+      "datatype": "text",
+      "field"   : ""
+    },
+    "nte": {
+      "xpath"   : "./@NTE",
+      "datatype": "text",
+      "field"   : "NTE"
+    },
+    "schedDatetime": {
+      "xpath"   : "./@SCHED_DATETIME",
+      "datatype": "datetime",
+      "field"   : "SCHED_DATETIME"
+    },
+    "complDatetime": {
+      "xpath"   : "./@COMPL_DATETIME",
+      "datatype": "datetime",
+      "field"   : "COMPL_DATETIME"
+    },
+    "recall": {
+      "xpath"   : "./@RECALL",
+      "datatype": "text",
+      "field"   : "RECALL"
+    },
+    "recallTrNum": {
+      "xpath"   : "./@RECALL_TR_NUM",
+      "datatype": "text",
+      "field"   : "RECALL_TR_NUM"
+    }
+  }
+}

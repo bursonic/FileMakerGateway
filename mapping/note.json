@@ -1,0 +1,50 @@
+{
+  "layout" : "sc_notes",
+  "fields" : {
+    "name" : {
+      "xpath" : "./@NAME",
+      "datatype" : "text",
+      "field" : "name"
+    },
+    "lineNumber" : {
+      "xpath" : "./@LINE",
+      "datatype" : "int",
+      "field" : "line"
+    },
+    "datetime" : {
+      "xpath" : "./@DATETIME",
+      "datatype" : "datetime",
+      "field" : "datetime"
+    },
+    "createdBy" : {
+      "xpath" : "./@CREATED_BY",
+      "datatype" : "text",
+      "field" : "created_by"
+    },
+    "newSchedDatetime" : {
+      "xpath" : "./@NEW_SCHED_DATETIME",
+      "datatype" : "datetime",
+      "field" : "new_sched_datetime"
+    },
+    "sentTo" : {
+      "xpath" : "./@SENT_TO",
+      "datatype" : "text",
+      "field" : "sent_to"
+    },
+    "actionRequired" : {
+      "xpath" : "./@ACTION_REQUIRED",
+      "datatype" : "int",
+      "field" : "action_required"
+    },
+    "body" : {
+      "xpath" : ".",
+      "datatype" : "text",
+      "field" : "message"
+    },
+    "workorder": {
+      "xpath" : "./../@TR_NUM",
+      "datatype" : "int",
+      "field" : "tr_num"
+    }
+  }
+}
