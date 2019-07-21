@@ -1,0 +1,22 @@
+{
+  "onCreateWorkOrder" : {
+    "layout" : "SC",
+    "script" : ""
+  },
+  "onUpdateWorkOrder" : {
+    "layout" : "SC",
+    "script" : ""
+  },
+  "onCheckIn" : {
+    "layout" : "SC",
+    "script" : ""
+  },
+  "onCheckOut" : {
+    "layout" : "SC",
+    "script" : ""
+  },
+  "onCreateNote" : {
+    "layout" : "SC",
+    "script" : ""
+  }
+}
